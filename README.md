@@ -65,7 +65,11 @@ musicLibrary: "http://localhost:3001/assets/remoteEntry.js"
 ## Tech Stack
 
 **Frontend**: React, TypeScript, Tailwind CSS
+
 **State Management**: React Context API
+
 **Authentication**: JWT (In-Memory)
+
 **Micro Frontend**: Vite + Module Federation
+
 **Testing**: Jest, React Testing Library
