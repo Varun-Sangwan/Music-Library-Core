@@ -24,25 +24,27 @@ The **Core App** serves as the main container application for the **Music Librar
 
 2. Install dependencies:
 
-````sh
+```sh
    npm install
-    ```
+```
+
 3. Start the Music Library Micro Frontend first:
    ```sh
    cd ../music-library
    npm install
    npm run preview
-    ```
+   ```
 4. Then, start the Core App:
    ```sh
    npm run dev
-    ```
+   ```
 
 ## Running Tests & Coverage
+
 ```sh
 npm test
 npx jest --coverage
-````
+```
 
 ## Micro Frontend Integration
 
@@ -68,8 +70,4 @@ State Management: React Context API
 Authentication: JWT (In-Memory)
 Micro Frontend: Vite + Module Federation
 Testing: Jest, React Testing Library
-```
-
-```
-
 ```
