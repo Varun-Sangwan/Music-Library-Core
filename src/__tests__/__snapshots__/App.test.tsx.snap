@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="login-container"
+  >
+    <div
+      class="login-box"
+    >
+      <h2>
+        Welcome!!
+      </h2>
+      <form>
+        <div>
+          <input
+            placeholder="Enter username"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <div>
+          <input
+            placeholder="Enter password"
+            required=""
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          type="submit"
+        >
+          LOGIN
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

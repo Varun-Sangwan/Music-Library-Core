@@ -1,0 +1,101 @@
+/* 🌟 Full Page Styling */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw; 
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* Nice gradient background */
+    color: white;
+    font-family: "Arial", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* 📌 Header Section (Fixed at Top) */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    top: 0;
+    left: 0;
+  }
+  
+  /* 🎨 Welcome Text & Role */
+  .welcome-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .role-text {
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+  .role-text span {
+    font-weight: bold;
+  }
+  
+  /* 🔘 Buttons */
+  .header-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap; /* ✅ Ensures buttons don't overflow */
+  }
+  
+  .add-song-btn,
+  .logout-btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    min-width: 120px; /* ✅ Ensures button width consistency */
+    text-align: center;
+  }
+  
+  /* ✅ Individual Button Styles */
+  .add-song-btn {
+    background: #764ba2;
+  }
+  
+  .logout-btn {
+    background: #5a67d8;
+  }
+  
+  /* ⏳ Loading Indicator */
+  .loading {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* 🌍 Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 15px;
+    }
+  
+    .welcome-container {
+      margin-bottom: 10px;
+    }
+  
+    .header-buttons {
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .add-song-btn,
+    .logout-btn {
+      width: 100%; /* ✅ Full width buttons for mobile */
+    }
+  }
+  
