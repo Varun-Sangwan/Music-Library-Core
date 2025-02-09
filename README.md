@@ -17,7 +17,7 @@ The **Core App** serves as the main container application for the **Music Librar
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/Varun-Sangwan/core-app.git
+   git clone https://github.com/Varun-Sangwan/Music-Library-Core
    cd core-app
 
    ```
