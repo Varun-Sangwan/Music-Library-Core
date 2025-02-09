@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1739105739501" clover="3.2.0">
-  <project timestamp="1739105739501" name="All files">
+<coverage generated="1739108231187" clover="3.2.0">
+  <project timestamp="1739108231187" name="All files">
     <metrics statements="48" coveredstatements="48" conditionals="12" coveredconditionals="12" methods="13" coveredmethods="13" elements="73" coveredelements="73" complexity="0" loc="48" ncloc="48" packages="4" files="5" classes="5"/>
     <package name="src">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="App.tsx" path="/Users/varun/Desktop/Workspace/React Interview/Assignments/Music Library Assingment/core-app/src/App.tsx">
+      <file name="App.tsx" path="/Users/varun/Desktop/Workspace/React Interview/Assignments/Music-Library-Core/src/App.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
@@ -12,7 +12,7 @@
     </package>
     <package name="src.components">
       <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="ProtectedRoute.tsx" path="/Users/varun/Desktop/Workspace/React Interview/Assignments/Music Library Assingment/core-app/src/components/ProtectedRoute.tsx">
+      <file name="ProtectedRoute.tsx" path="/Users/varun/Desktop/Workspace/React Interview/Assignments/Music-Library-Core/src/components/ProtectedRoute.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="5" count="2" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
@@ -21,7 +21,7 @@
     </package>
     <package name="src.context">
       <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-      <file name="AuthContext.tsx" path="/Users/varun/Desktop/Workspace/React Interview/Assignments/Music Library Assingment/core-app/src/context/AuthContext.tsx">
+      <file name="AuthContext.tsx" path="/Users/varun/Desktop/Workspace/React Interview/Assignments/Music-Library-Core/src/context/AuthContext.tsx">
         <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="5" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
@@ -44,7 +44,7 @@
     </package>
     <package name="src.pages">
       <metrics statements="26" coveredstatements="26" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7"/>
-      <file name="Dashboard.tsx" path="/Users/varun/Desktop/Workspace/React Interview/Assignments/Music Library Assingment/core-app/src/pages/Dashboard.tsx">
+      <file name="Dashboard.tsx" path="/Users/varun/Desktop/Workspace/React Interview/Assignments/Music-Library-Core/src/pages/Dashboard.tsx">
         <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
         <line num="6" count="2" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
@@ -57,7 +57,7 @@
         <line num="30" count="1" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
       </file>
-      <file name="Login.tsx" path="/Users/varun/Desktop/Workspace/React Interview/Assignments/Music Library Assingment/core-app/src/pages/Login.tsx">
+      <file name="Login.tsx" path="/Users/varun/Desktop/Workspace/React Interview/Assignments/Music-Library-Core/src/pages/Login.tsx">
         <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="12" type="stmt"/>

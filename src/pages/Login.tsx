@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
-import "../styles/Login.css"; // ✅ Import the new CSS file
+import "../styles/Login.css";
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState<string>("");

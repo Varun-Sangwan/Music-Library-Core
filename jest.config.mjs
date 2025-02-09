@@ -1,5 +1,5 @@
 export default {
-  testEnvironment: "jsdom", // ✅ Simulates browser environment for React
+  testEnvironment: "jsdom",
   transform: {
     "^.+\\.(js|jsx|ts|tsx)$": [
       "babel-jest",
@@ -13,7 +13,7 @@ export default {
     ],
   },
   moduleNameMapper: {
-    "\\.(css|scss|sass)$": "identity-obj-proxy", // ✅ Mocks CSS files
+    "\\.(css|scss|sass)$": "identity-obj-proxy",
     "musicLibrary/MusicLibrary": "<rootDir>/src/__mocks__/MusicLibraryMock.tsx", // ✅ Mock remote module
   },
   setupFilesAfterEnv: ["<rootDir>/src/test/setupTests.js"],

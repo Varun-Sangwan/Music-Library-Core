@@ -3,15 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;  /* ✅ Full viewport width */
-    height: 100vh; /* ✅ Full viewport height */
+    width: 100vw;  
+    height: 100vh; 
     background: linear-gradient(219deg, #5e6d97, #2e2e2e);
     padding: 40px;
     box-sizing: border-box;
     font-family: "Arial", sans-serif;
   }
   
-  /* 📌 The login card */
   .login-box {
     background: rgba(255, 255, 255, 0.15);
     padding: 2rem;
@@ -24,7 +23,6 @@
 
   }
   
-  /* 🎨 Heading */
   .login-box h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -32,7 +30,6 @@
     margin-bottom: 1.5rem;
   }
   
-  /* 📝 Input Fields */
   .login-box input {
     width: 100%;
     max-width: 350px;
@@ -46,14 +43,11 @@
     margin-bottom: 1rem;
  }
   
-  
-  /* ✨ Focus effect */
   .login-box input:focus {
     border-color: #667eea;
     box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
   }
   
-  /* 📌 Button styling */
   .login-box button {
     width: 100%;
     background: #9fa0a6;
@@ -64,12 +58,10 @@
     font-weight: bold;
     border: none;
     cursor: pointer;
-    transition: background 0.3s;
-    margin-top: 1rem; /* ✅ Adds space above the button */
+    transition: "background 0.3s";
+    margin-top: 1rem; 
   }
 
-  
-  /* 🌍 Responsive Design */
   @media (max-width: 768px) {
     .login-container {
       padding: 20px;

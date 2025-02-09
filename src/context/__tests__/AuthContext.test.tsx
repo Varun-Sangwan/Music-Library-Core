@@ -3,7 +3,6 @@ import { render, renderHook, screen } from "@testing-library/react";
 import { AuthProvider, useAuth } from "../AuthContext";
 import { jwtDecode } from "jwt-decode";
 
-// ✅ Mock `jwtDecode` to control its behavior
 jest.mock("jwt-decode", () => ({
   jwtDecode: jest.fn(),
 }));
@@ -22,7 +21,7 @@ describe("AuthContext", () => {
   });
 
   afterEach(() => {
-    consoleErrorSpy.mockRestore(); // ✅ Restore original console.error after test
+    consoleErrorSpy.mockRestore();
   });
 
   const TestComponent = () => {
@@ -47,10 +46,10 @@ describe("AuthContext", () => {
   it("logs out a user and removes token from localStorage", () => {
     renderWithProvider();
 
-    screen.getByText("Login").click(); // First, log in
+    screen.getByText("Login").click();
     expect(localStorage.getItem("token")).toBe("valid.jwt.token");
 
-    screen.getByText("Logout").click(); // Then, log out
+    screen.getByText("Logout").click();
     expect(localStorage.getItem("token")).toBeNull();
     expect(screen.getByTestId("username").textContent).toBe("No User");
   });

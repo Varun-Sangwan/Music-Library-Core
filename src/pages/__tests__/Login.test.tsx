@@ -4,12 +4,10 @@ import { MemoryRouter } from "react-router-dom";
 import Login from "../Login";
 import { useAuth } from "../../context/AuthContext";
 
-// ✅ Mock `useAuth()` BEFORE importing the component
 jest.mock("../../context/AuthContext", () => ({
   useAuth: jest.fn(),
 }));
 
-// ✅ Mock `useNavigate()` BEFORE importing the component
 const mockNavigate = jest.fn();
 jest.mock("react-router-dom", () => ({
   ...jest.requireActual("react-router-dom"),
@@ -20,9 +18,8 @@ describe("Login Page", () => {
   let mockLogin: jest.Mock;
 
   beforeEach(() => {
-    jest.clearAllMocks(); // ✅ Ensures fresh mocks for each test
+    jest.clearAllMocks();
 
-    // ✅ Mock login function before each test
     mockLogin = jest.fn();
     (useAuth as jest.Mock).mockReturnValue({ login: mockLogin });
   });
