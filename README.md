@@ -31,7 +31,7 @@ The **Core App** serves as the main container application for the **Music Librar
 3. Start the Music Library Micro Frontend first:
    ```sh
    cd ..
-   git clone https://github.com/Varun-Sangwan/Music-Library-MFE
+   git clone https://github.com/Varun-Sangwan/Music-Library-Core
    cd music-library
    npm install
    npm run preview
@@ -39,6 +39,11 @@ The **Core App** serves as the main container application for the **Music Librar
 4. Then, start the Core App:
    ```sh
    npm run dev
+   ```
+5. The login using below configured credentials
+   ```sh
+   admin/admin123
+   user/user123
    ```
 
 ## Running Tests & Coverage
