@@ -34,6 +34,7 @@ The **Core App** serves as the main container application for the **Music Librar
    git clone https://github.com/Varun-Sangwan/Music-Library-MFE
    cd music-library
    npm install
+   npm build
    npm run preview
    ```
 4. Then, start the Core App:
