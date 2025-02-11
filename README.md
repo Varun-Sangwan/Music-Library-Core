@@ -31,7 +31,7 @@ The **Core App** serves as the main container application for the **Music Librar
 3. Start the Music Library Micro Frontend first:
    ```sh
    cd ..
-   git clone https://github.com/Varun-Sangwan/Music-Library-Core
+   git clone https://github.com/Varun-Sangwan/Music-Library-MFE
    cd music-library
    npm install
    npm run preview
